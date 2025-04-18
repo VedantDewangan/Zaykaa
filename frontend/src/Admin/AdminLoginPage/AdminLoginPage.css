@@ -1,0 +1,129 @@
+.admin-login-page-container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-login-page-container-heading{
+    font-size: 2.8em;
+    font-weight: bold;
+    padding: 50px;
+    text-align: center;
+}
+
+.admin-login-page-container-heading span{
+    color: rgb(193, 196, 136);
+}
+
+.admin-login-page-container-form{
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    padding: 35px;
+    border-radius: 25px;
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+    margin: 0px auto;
+    gap: 20px;
+}
+
+.admin-login-page-container-form input{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.6);
+    background-color: transparent;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 40px;
+}
+
+.admin-login-page-container-form a{
+    text-decoration: none;
+}
+
+.admin-login-page-container-form a:hover{
+    text-decoration: underline;
+    color: rgb(193, 196, 136);
+}
+
+.admin-login-page-container-form button{
+    outline: none;
+    background-color: rgb(193, 196, 136);
+    border: none;
+    width: max-content;
+    padding: 15px 30px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.admin-login-page-container-form button:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.admin-login-page-container-form button:active{
+    scale: 0.9;
+}
+
+.login-box{
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    position: relative;
+    left: -25px;
+    animation: opactityChanges2 infinite 6s;
+}
+
+.login-box-2{
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    height: 180px;
+    width: 180px;
+    scale: 1.3;
+    border-radius: 20px;
+    background-color:antiquewhite;
+    animation: opactityChanges infinite 6s;
+}
+
+.container-admin-login{
+    overflow: hidden !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+@keyframes opactityChanges2 {
+    0%{
+        opacity: 0.8;
+        transform: translateY(0px) rotate(45deg);
+    }
+    50%{
+        opacity: 0.4;
+        transform: translateY(20px) rotate(30deg);
+    }
+    100%{
+        opacity: 0.8;
+        transform: translateY(0px) rotate(45deg);
+    }
+}
+
+@keyframes opactityChanges {
+    0%{
+        opacity: 0.4;
+        transform: translateY(0px) rotate(30deg);
+    }
+    50%{
+        opacity: 0.8;
+        transform: translateY(0px) rotate(45deg);
+    }
+    100%{
+        opacity: 0.4;
+        transform: translateY(0px) rotate(30deg);
+    }
+}

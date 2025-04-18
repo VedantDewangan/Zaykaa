@@ -1,0 +1,27 @@
+.orders-page{
+    background-color: black;
+    min-height: 100vh;
+}
+
+.order-table-container{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+}
+
+.order-table-container table tr{
+    background-color: rgb(66, 66, 66);
+}
+
+.order-table-container table td{
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.order-table-container table tr td div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0px 0px 30px 0px;
+}

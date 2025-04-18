@@ -1,0 +1,39 @@
+.AI-container{
+    background-color: rgb(16,16,16);
+    padding: 80px;
+}
+
+.AI-container h2{
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.AI-container h2 span{
+    color: rgb(193, 196, 136);
+}
+
+.AI-container button{
+    padding: 15px 25px;
+    outline: none;
+    border: none;
+    background-color: rgb(164, 167, 101);
+    transition: all 0.2s linear;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+.AI-container p{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 20px 0px 0px 0px;
+    opacity: 0.7;
+}
+
+.AI-container button:hover{
+    background-color: rgb(109, 111, 67);
+}

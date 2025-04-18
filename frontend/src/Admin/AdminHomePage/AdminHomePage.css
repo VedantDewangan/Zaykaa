@@ -1,0 +1,136 @@
+.admin-page-container{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-page-link-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.admin-page-container p{
+    text-align: center;
+    padding: 40px;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.admin-page-container p span{
+    color: rgb(238, 244, 160);
+}
+
+.admin-page-back-but{
+    outline: none;
+    background-color: rgb(193, 196, 136);
+    cursor: pointer;
+    border: none;
+    font-size: 1.1em;
+    padding: 20px 40px;
+    transition: all 0.2s linear;
+    border-radius: 30px;
+}
+
+.admin-page-back-but:hover{
+    background-color: rgb(162, 162, 52);
+}
+
+.admin-page-back-but:active{
+    scale: 0.9;
+}
+
+.admin-page-link-container div{
+    text-align: center;
+    font-size: 1.2em;
+    height: 80px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 50px;
+    border-radius: 10px;
+    width: 20%;
+    background-color: rgba(35, 35, 35, 0.6);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.admin-page-link-container div:hover{
+    background-color: rgba(55, 55, 55, 0.8);
+}
+
+.admin-page-link-container div a{
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.admin-page-container div a:hover{
+    scale: 0.95;
+}
+
+.admin-div-1{
+    height: 52vh;
+    width: 100vw;
+    background-color: rgb(10,10,10);
+}
+
+.admin-div-2{
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.admin-div-3{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.admin-home-box-1{
+    background-color: aliceblue;
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+    opacity: 0.6;
+    position: absolute;
+    top: 5px;
+    right: 95px;
+    z-index: 0;
+    transform: rotate(45deg);
+    animation:  roatation 25s linear infinite;
+}
+
+@keyframes roatation {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

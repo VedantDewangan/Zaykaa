@@ -1,0 +1,107 @@
+.order-manage-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.order-management-conatiner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.heading-order-manage{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.each-order{
+    display: flex;
+    background-color: rgb(49, 49, 49);
+    opacity: 0.8;
+    border-radius: 20px;
+    gap: 100px;
+    align-items: start;
+}
+
+.each-order-container{
+    display: flex;
+    background-color: rgb(49, 49, 49);
+    padding: 30px;
+    opacity: 0.8;
+    border-radius: 20px;
+    gap: 50px;
+    font-size:1.4em;
+    flex-direction: column;
+    align-items: start;
+}
+
+.each-order-user-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 20px 20px 0px;
+}
+
+.each-order-status-details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+} 
+
+.each-order-status-details button{
+    outline: none;
+    border: none;
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.1s ease-in;
+    font-weight: bold;
+}
+
+.each-order-status-details button:hover{
+    background-color: rgb(94, 253, 102);
+}
+
+.each-order-status-details button:active{
+    scale: 0.9;
+}
+
+.each-order-first{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.each-order-food-item-con{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    gap: 10px;
+    width: 100%;
+}
+
+.each-order-food-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9em;
+    gap: 80px;
+}
+
+.each-order-food-item img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}

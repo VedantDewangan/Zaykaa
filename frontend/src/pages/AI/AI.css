@@ -1,0 +1,100 @@
+.ai-container{
+    background-color: black;
+    min-height: 100vh;
+}
+
+.ai-gap{
+    height: 100px;
+}
+
+.Ai-Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 50px;
+    gap: 10px;
+    margin: auto;
+}
+
+.Ai-Form div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    gap: 5px;
+}
+
+.Ai-Form div select{
+    width: 30vw;
+}
+
+.Ai-Form div select option{
+    background-color: rgb(69, 69, 69);
+}
+
+.Ai-Form p{
+    font-size: 2em;
+}
+
+.Ai-Form button{
+    background-color: transparent;
+    padding: 15px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid darkgray;
+    font-size: 1.2em;
+    transition: all 0.1s ease-in;
+}
+
+.Ai-Form button:hover{
+    background-color: rgb(30,30,30);
+}
+
+.Ai-Form button:active{
+    scale: 0.95;
+}
+
+.recommendations{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.recommendations h3{
+    font-size: 2em;
+}
+
+.recommendation-food-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.recommendation-each-food-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(20,20,20);
+}
+
+.recommendation-each-food-container img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.recommendation-each-food-container p{
+    font-size: 1.2em;
+}

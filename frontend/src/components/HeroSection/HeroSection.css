@@ -1,0 +1,72 @@
+.hero-section-container{
+    background-image: url("../../images/heroSectionBackgroundImage.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 100px;
+}
+
+.hero-section-right{
+    padding: 20px 0px;
+}
+
+.hero-section-right img{
+    border-radius: 220px;
+    filter: brightness(50px);
+    transition: all 0.2s ease-in-out;
+}
+
+.hero-section-right img:hover{
+    cursor: pointer;
+    scale: 1.08;
+}
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.hero-section-left-heading{
+    font-size: 4.8em;
+    font-weight: bold;
+}
+
+.hero-section-left-heading span{
+    color: rgb(193, 196, 136);
+}
+
+.hero-section-left-tagline{
+    font-size: 1.6em;
+}
+
+.hero-section-left-text{
+    opacity: 0.7;
+    width: 65%;
+    padding: 20px 0px;
+    font-size: 1.4em;
+}
+
+.hero-section-left-button{
+    background-color: rgb(193, 196, 136);
+    text-align: center;
+    padding: 20px 25px;
+    border-radius: 100px;
+    width: max-content;
+    outline: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.hero-section-left-button:hover{
+    background-color: lightgray;
+    color: black;
+}

@@ -1,0 +1,35 @@
+.navbar-container {
+    background: transparent; 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(5px); 
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.navbar {
+    padding: 40px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar ul li {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar ul li:hover {
+    opacity: 1;
+}

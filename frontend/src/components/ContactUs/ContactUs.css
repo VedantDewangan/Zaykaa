@@ -1,0 +1,149 @@
+.contact-us-first{
+    background-color: rgb(27, 25, 27);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 80px 120px;
+}
+
+.contact-us-second{
+    background-color: rgb(16, 16, 16);
+}
+
+.contact-us-first-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-us-first-left-small-heading{
+    font-size: 1.1em;
+    color: rgb(193, 196, 136);
+    padding: 10px 0px;
+}
+
+.contact-us-first-left-heading{
+    font-size: 2.8em;
+    padding: 10px 0px;
+    width: 80%;
+    font-weight: bold;
+}
+
+.contact-us-first-left-heading span{
+    color: rgb(193, 196, 136);
+}
+
+.contact-us-first-left-hrs{
+    font-size: 1.3em;
+    padding: 20px 0px 0px 0px;
+}
+
+.contact-us-first-left-hrs-2{
+    font-size: 1.1em;
+    padding: 10px 0px 0px 0px;
+    opacity: 0.7;
+}
+
+.contact-us-first-right{
+    width: 30vw;
+    position: relative;
+}
+
+.contact-us-first-right-form{
+    position: absolute;
+    top: 0px;
+    z-index: 90;
+    padding: 45px 35px; 
+    border-radius: 25px;
+    width: 100%;
+    color: black;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    gap: 15px;
+}
+
+.contact-us-first-right-form input,.contact-us-first-right-form select{
+    outline: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 1em;
+    border: 1px solid rgba(0, 0, 0,0.4);
+}
+
+.contact-us-first-right-form button{
+    outline: none;
+    border: none;
+    padding: 20px 40px;
+    background-color: rgb(143, 148, 74);
+    border-radius: 50px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-us-first-right-form select{
+    width: 94%;
+}
+
+.contact-us-first-right-form select option{
+    color: black;
+}
+
+.contact-us-first-right-form button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.contact-us-second-copyright{
+    text-align: center;
+    font-size: 1.1em;
+    padding: 25px 0px 50px 0px;
+}
+
+.contact-us-second-links{
+    padding: 35px 80px;
+}
+
+.contact-us-second-links ul{
+    list-style: none;
+    gap: 10px;
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+}
+
+.contact-us-second-heading{
+    font-size: 4em;
+    font-weight: bold;
+    padding: 50px 0px 0px 80px;
+}
+
+.contact-us-second-heading span{
+    color: rgb(143, 148, 74);
+}
+
+.contact-us-second-tagline{
+    padding: 0px 0px 20px 80px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.location-phone-number{
+    padding: 10px 0px 0px 80px;
+    font-size: 1.1em;
+    opacity: 0.8;
+}
+
+.admin-link{
+    padding: 80px;
+    text-decoration: none;
+    opacity: 0.4;
+}

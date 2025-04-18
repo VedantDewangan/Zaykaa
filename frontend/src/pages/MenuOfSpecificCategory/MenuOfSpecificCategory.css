@@ -1,0 +1,16 @@
+.view-full-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    font-size: 1.3em;
+    gap: 10px;
+}
+
+.view-full-menu a{
+    transition: all 0.3s ease;
+}
+
+.view-full-menu a:hover{
+    color: rgb(193,196,136);
+}

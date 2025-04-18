@@ -1,0 +1,241 @@
+.About-Us-Conatiner{
+    background-color: rgb(16,16,16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.About-Us-Conatiner-1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 50px 0px;
+}
+
+.About-Us-Conatiner-1-right{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 35%;
+}
+
+.About-Us-Conatiner-1-right-heading{
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.About-Us-Conatiner-1-right-heading span{
+    color: rgb(193, 196, 136);
+}
+
+.About-Us-Conatiner-1-right-text{
+    opacity: 0.7;
+    font-size: 1.3em;
+    padding: 20px 0px;
+}
+
+.About-Us-Conatiner-1-right-ul{
+    opacity: 0.9;
+    padding: 10px 20px;
+}
+
+.About-Us-Conatiner-1-right-ul li{
+    padding: 10px 0px 0px 0px;
+    font-size: 1.1em;
+}
+
+.About-Us-Conatiner-1-right-button{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.About-Us-Conatiner-1-right-button a{
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background-color: rgb(193, 196, 136);
+    font-size: 1.2em;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.About-Us-Conatiner-1-right-button a:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.About-Us-Conatiner-1-left-image-container{
+    position: relative;
+}
+
+.About-Us-Conatiner-1-left-first{
+    border-radius: 220px;
+    position: relative;
+    scale: 1.05;
+}
+
+.About-Us-Conatiner-1-left-second{
+    position: absolute;
+    bottom: 50px;
+    left: -50px;
+    border-radius: 50%;
+    border:10px solid rgb(202, 202, 202);
+}
+
+.About-Us-Conatiner-1-left-third{
+    position: absolute;
+    animation: animate_experience_box 3s linear infinite;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(136, 138, 89);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    font-size: 1.05em;
+    font-weight: light;
+    transition: all 0.2s ease-in-out;
+}
+
+.About-Us-Conatiner-1-left-third:hover{
+    background-color: rgb(212, 212, 212);
+    color: black;
+    cursor: pointer;
+}
+
+@keyframes animate_experience_box {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(12px);
+    }
+    60% {
+        transform: translateY(-12px);
+    }
+}
+
+.about-us-hr {
+    margin: auto;
+    width: 80%;
+}
+
+.About-Us-Conatiner-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 0px;
+    gap: 50px;
+}
+
+.About-Us-Conatiner-2-container{
+    background-color: rgb(25,25,25);
+    padding: 15px;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding:30px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.About-Us-Conatiner-2-container:hover{
+    background-color: rgb(35,35,35);
+}
+
+.About-Us-Conatiner-2-container-logo{
+    font-size: 4em;
+}
+
+.About-Us-Conatiner-2-container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.About-Us-Conatiner-2-container-text-heading{
+    font-size: 1.6em;
+    font-weight: bold;
+    width: max-content;
+    text-align: center;
+}
+
+.About-Us-Conatiner-2-container-text-text{
+    font-size: 1em;
+    opacity: 0.7;
+    width: 70%;
+    text-align: center;
+}
+
+.About-Us-Conatiner-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 80px 140px 40px 140px;
+}
+
+.About-Us-Conatiner-3-left img{
+    border-radius: 50px;
+    opacity: 0.8;
+    transition: all 0.2s linear;
+}
+
+.About-Us-Conatiner-3-left img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.About-Us-Conatiner-3-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.About-Us-Conatiner-3-right-small-heading{
+    color: rgb(193, 196, 136);
+    font-size: 1em;
+}
+
+.About-Us-Conatiner-3-right-heading{
+    font-size: 2.8em;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.About-Us-Conatiner-3-right-text{
+    opacity: 0.7;
+    font-size: 1.2em;
+    padding: 0px 0px 20px 0px;
+}
+
+.About-Us-Conatiner-3-right-ul{
+    padding: 10px 20px;
+    opacity: 0.9;
+}
+
+.About-Us-Conatiner-3-right-ul li{
+    padding: 10px 0px 0px 0px;
+    font-size: 1.1em;
+}
