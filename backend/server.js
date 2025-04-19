@@ -26,9 +26,6 @@ app.use("/api", FoodRoute);
 app.use("/api", CartRoute);
 app.use("/api", OrderRoute);
 
-// const PAYPAL_CLIENT_ID = 'ATdE5NX5uLGk_jNaQy7rGq7WPmA2T02aV1BKNvAlEzmbBmvlz9wXFVALn2uMeDTFNuuFY5EsMKqUwx83';
-// const PAYPAL_SECRET = 'EPPuDI5Mi_gtNdTua44Chn7zlI32FFonJIBWFY33Qty-5VTXvo0XtQaoJN1lkJcHcmOjZ8AMIOK8a5HA';
-// const PAYPAL_API = "https://api-m.sandbox.paypal.com";
 const PAYPAL_CLIENT_ID = process.env.PAYPAL_CLIENT_ID;
 const PAYPAL_SECRET = process.env.PAYPAL_SECRET;
 const PAYPAL_API = process.env.PAYPAL_API;
