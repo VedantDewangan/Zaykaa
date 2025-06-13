@@ -36,23 +36,24 @@ To set up Zaykaa locally on your machine:
 
 2. **Install server dependencies**:
    ```bash
-   cd Zaykaa/server
+   cd Zaykaa/backend
    npm install
    ```
 
 3. **Install client dependencies**:
    ```bash
-   cd ../client
+   cd ../frontend
    npm install
    ```
 
 4. **Environment Configuration**:
 
-   In the `server` folder, create a `.env` file:
+   In the `backen` folder, create a `.env` file:
    ```env
-   PORT=your_port_number
-   RAZORPAY_KEY_ID=your_razorpay_key_id
-   RAZORPAY_SECRET_ID=your_razorpay_secret_id
+   PAYPAL_CLIENT_ID=your_port_number
+   PAYPAL_API=paypal_api
+   PAYPAL_SECRET=your_paypal_secret_id
+   MONGODB_URI=your_mongodb_uri
    ```
 
 5. **Start the development servers**:
@@ -73,29 +74,42 @@ To set up Zaykaa locally on your machine:
 1. Visit `http://localhost:5173` or your deployed URL.
 2. Register or log in to your account.
 3. Explore the menu and add food items to your cart or wishlist.
-4. Place your order using Razorpay.
+4. Place your order using Paypal.
 5. Track your order status in the **Orders** section.
 
 ---
 
 ## Screenshots
 
-> Replace the below image links with your actual Zaykaa screenshots hosted on GitHub.
-
 ### 🍽️ Home Page
-![Home Page](https://github.com/VedantDewangan/Zaykaa/blob/main/screenshots/home.png?raw=true)
+![Home Page](https://github.com/VedantDewangan/Zaykaa/blob/master/Screenshot%20(46).png)
 
 ### 🧑‍🍳 Menu Page
-![Menu](https://github.com/VedantDewangan/Zaykaa/blob/main/screenshots/menu.png?raw=true)
+![Menu](https://github.com/VedantDewangan/Zaykaa/blob/master/Screenshot%20(47).png)
+
+### 🧑‍🍳 User Login Page
+![Login](https://github.com/VedantDewangan/Zaykaa/blob/master/Screenshot%20(48).png)
 
 ### 🛒 Cart
-![Cart](https://github.com/VedantDewangan/Zaykaa/blob/main/screenshots/cart.png?raw=true)
+![Cart](https://github.com/VedantDewangan/Zaykaa/blob/master/Screenshot%20(49).png)
 
 ### 💳 Payment
-![Payment](https://github.com/VedantDewangan/Zaykaa/blob/main/screenshots/payment.png?raw=true)
+![Payment](https://github.com/VedantDewangan/Zaykaa/blob/master/Screenshot%20(50).png)
 
 ### 📦 Order History
-![Orders](https://github.com/VedantDewangan/Zaykaa/blob/main/screenshots/orders.png?raw=true)
+![Orders](https://github.com/VedantDewangan/Zaykaa/blob/master/Screenshot%20(51).png)
+
+### 📦 Admin Login Page
+![Admin Login Page](https://github.com/VedantDewangan/Zaykaa/blob/master/Screenshot%20(52).png)
+
+### 📦 Menu Management
+![Menu Management](https://github.com/VedantDewangan/Zaykaa/blob/master/Screenshot%20(53).png)
+
+### 📦 Add New Food Item
+![Add New Food Item](https://github.com/VedantDewangan/Zaykaa/blob/master/Screenshot%20(54).png)
+
+### 📦 Manage Order
+![Manage Order](https://github.com/VedantDewangan/Zaykaa/blob/master/Screenshot%20(55).png)
 
 ---
 
